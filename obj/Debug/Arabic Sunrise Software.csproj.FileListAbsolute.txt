@@ -1,0 +1,12 @@
+c:\users\ibrahim\documents\visual studio 2013\Projects\Arabic Sunrise Software\Arabic Sunrise Software\bin\Arabic Sunrise Software.dll.config
+c:\users\ibrahim\documents\visual studio 2013\Projects\Arabic Sunrise Software\Arabic Sunrise Software\bin\Arabic Sunrise Software.dll
+c:\users\ibrahim\documents\visual studio 2013\Projects\Arabic Sunrise Software\Arabic Sunrise Software\bin\Arabic Sunrise Software.pdb
+c:\users\ibrahim\documents\visual studio 2013\Projects\Arabic Sunrise Software\Arabic Sunrise Software\obj\Debug\Arabic Sunrise Software.csprojResolveAssemblyReference.cache
+c:\users\ibrahim\documents\visual studio 2013\Projects\Arabic Sunrise Software\Arabic Sunrise Software\obj\Debug\Arabic Sunrise Software.dll
+c:\users\ibrahim\documents\visual studio 2013\Projects\Arabic Sunrise Software\Arabic Sunrise Software\obj\Debug\Arabic Sunrise Software.pdb
+C:\Users\ibrahim\Pictures\Arabic Sunrise Software\Arabic Sunrise Software\bin\Arabic Sunrise Software.dll.config
+C:\Users\ibrahim\Pictures\Arabic Sunrise Software\Arabic Sunrise Software\bin\Arabic Sunrise Software.dll
+C:\Users\ibrahim\Pictures\Arabic Sunrise Software\Arabic Sunrise Software\bin\Arabic Sunrise Software.pdb
+C:\Users\ibrahim\Pictures\Arabic Sunrise Software\Arabic Sunrise Software\obj\Debug\Arabic Sunrise Software.csprojResolveAssemblyReference.cache
+C:\Users\ibrahim\Pictures\Arabic Sunrise Software\Arabic Sunrise Software\obj\Debug\Arabic Sunrise Software.dll
+C:\Users\ibrahim\Pictures\Arabic Sunrise Software\Arabic Sunrise Software\obj\Debug\Arabic Sunrise Software.pdb
