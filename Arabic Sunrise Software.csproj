@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FDA600FB-DF7A-4345-BA8E-F5BB2107F03C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Arabic_Sunrise_Software</RootNamespace>
+    <AssemblyName>Arabic Sunrise Software</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1.html" />
+    <Content Include="about1.html" />
+    <Content Include="apps2.html" />
+    <Content Include="Cloud.html" />
+    <Content Include="css\bootstrap-theme.min.css.map" />
+    <Content Include="css\bootstrap.css.map" />
+    <Content Include="desktops2.html" />
+    <Content Include="fonts\Cairo-Bold.ttf" />
+    <Content Include="fonts\Cairo-Regular.ttf" />
+    <Content Include="fonts\Cairo-SemiBold.ttf" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="MissionDatabasesHosting1.html" />
+    <Content Include="MissionDesktopClouds1.html" />
+    <Content Include="MissionDesktops1.html" />
+    <Content Include="MissionMobile1.html" />
+    <Content Include="MissionNetworkClouds1.html" />
+    <Content Include="MissionNetworks1.html" />
+    <Content Include="MissionWeb1.html" />
+    <Content Include="MissionWebsites1.html" />
+    <Content Include="MissionWebsitesHosting1.html" />
+    <Content Include="Product001.html" />
+    <Content Include="Product002.html" />
+    <Content Include="Product003.html" />
+    <Content Include="Product004.html" />
+    <Content Include="Product005.html" />
+    <Content Include="Product006.html" />
+    <Content Include="Product007.html" />
+    <Content Include="Product008.html" />
+    <Content Include="Product009.html" />
+    <Content Include="Product010.html" />
+    <Content Include="Product011.html" />
+    <Content Include="Product012.html" />
+    <Content Include="Product013.html" />
+    <Content Include="Product014.html" />
+    <Content Include="Product015.html" />
+    <Content Include="Product016.html" />
+    <Content Include="Product017.html" />
+    <Content Include="Product018.html" />
+    <Content Include="Product019.html" />
+    <Content Include="Product020.html" />
+    <Content Include="Product021.html" />
+    <Content Include="Product022.html" />
+    <Content Include="Product023.html" />
+    <Content Include="Product024.html" />
+    <Content Include="PrivateInstitutes2.html" />
+    <Content Include="PrivateKg2.html" />
+    <Content Include="PrivatePreparatory2.html" />
+    <Content Include="PrivatePrimary2.html" />
+    <Content Include="PrivateSecondary2.html" />
+    <Content Include="PrivateUniversities2.html" />
+    <Content Include="Product0255.html" />
+    <Content Include="PublicInstitutes2.html" />
+    <Content Include="PublicKg2.html" />
+    <Content Include="PublicPreparatory2.html" />
+    <Content Include="PublicPrimary2.html" />
+    <Content Include="PublicSecondary2.html" />
+    <Content Include="PublicUniversities2.html" />
+    <Content Include="websites2.html" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="about.html" />
+    <Content Include="apps.html" />
+    <Content Include="blog.html" />
+    <Content Include="clouds.html" />
+    <Content Include="contact.html" />
+    <Content Include="css\bootstrap-theme.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\cairo-font.css" />
+    <Content Include="css\Cairo.css" />
+    <Content Include="css\font-awesome.css" />
+    <Content Include="css\jquery-ui.css" />
+    <Content Include="css\style.css" />
+    <Content Include="desktops.html" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="home.html" />
+    <Content Include="images1\300.png" />
+    <Content Include="images1\400.png" />
+    <Content Include="images1\500.png" />
+    <Content Include="images1\600.png" />
+    <Content Include="images1\access.png" />
+    <Content Include="images1\access1.png" />
+    <Content Include="images1\arabic.png" />
+    <Content Include="images1\arabic1.png" />
+    <Content Include="images1\asp.png" />
+    <Content Include="images1\asp1.png" />
+    <Content Include="images1\banner-about.jpg" />
+    <Content Include="images1\banner-add-blog.jpg" />
+    <Content Include="images1\banner-blog-title.jpg" />
+    <Content Include="images1\banner-blog.jpg" />
+    <Content Include="images1\banner-contact.jpg" />
+    <Content Include="images1\banner-ourWorks.jpg" />
+    <Content Include="images1\banner-project.jpg" />
+    <Content Include="images1\Banner1-1.jpg" />
+    <Content Include="images1\Banner1-1.png" />
+    <Content Include="images1\Banner1.jpg" />
+    <Content Include="images1\Banner2.jpg" />
+    <Content Include="images1\Banner3.jpg" />
+    <Content Include="images1\Banner4.jpg" />
+    <Content Include="images1\blog-title.jpg" />
+    <Content Include="images1\c.png" />
+    <Content Include="images1\c1.png" />
+    <Content Include="images1\Caafimaad.jpg" />
+    <Content Include="images1\educational.png" />
+    <Content Include="images1\english.png" />
+    <Content Include="images1\english1.png" />
+    <Content Include="images1\favicon.png" />
+    <Content Include="images1\footer.png" />
+    <Content Include="images1\hani.jpg" />
+    <Content Include="images1\institute.png" />
+    <Content Include="images1\INSTITUTE1.png" />
+    <Content Include="images1\INSTITUTE2.png" />
+    <Content Include="images1\java.png" />
+    <Content Include="images1\java1.png" />
+    <Content Include="images1\KG1.png" />
+    <Content Include="images1\KG2.png" />
+    <Content Include="images1\mysql.png" />
+    <Content Include="images1\mysql1.png" />
+    <Content Include="images1\oracle.png" />
+    <Content Include="images1\oracle1.png" />
+    <Content Include="images1\our-works-1.jpg" />
+    <Content Include="images1\ourworks1.jpg" />
+    <Content Include="images1\php.png" />
+    <Content Include="images1\php1.png" />
+    <Content Include="images1\postgresql.png" />
+    <Content Include="images1\postgresql1.png" />
+    <Content Include="images1\PREPARATORY1.png" />
+    <Content Include="images1\PREPARATORY2.png" />
+    <Content Include="images1\PRIMARY1.png" />
+    <Content Include="images1\PRIMARY2.png" />
+    <Content Include="images1\projects-banner.jpg" />
+    <Content Include="images1\school.png" />
+    <Content Include="images1\schools.png" />
+    <Content Include="images1\SECONDARY1.png" />
+    <Content Include="images1\SECONDARY2.png" />
+    <Content Include="images1\sqlserver.png" />
+    <Content Include="images1\sqlserver1.png" />
+    <Content Include="images1\universities.png" />
+    <Content Include="images1\UNIVERSITY1.png" />
+    <Content Include="images1\UNIVERSITY2.png" />
+    <Content Include="images1\vb.png" />
+    <Content Include="images1\vb1.png" />
+    <Content Include="images\300.png" />
+    <Content Include="images\400.png" />
+    <Content Include="images\500.png" />
+    <Content Include="images\600.png" />
+    <Content Include="images\access.png" />
+    <Content Include="images\access1.png" />
+    <Content Include="images\arabic.png" />
+    <Content Include="images\arabic1.png" />
+    <Content Include="images\asp.png" />
+    <Content Include="images\asp1.png" />
+    <Content Include="images\banner-about.jpg" />
+    <Content Include="images\banner-add-blog.jpg" />
+    <Content Include="images\banner-blog-title.jpg" />
+    <Content Include="images\banner-blog.jpg" />
+    <Content Include="images\banner-contact.jpg" />
+    <Content Include="images\banner-ourWorks.jpg" />
+    <Content Include="images\banner-project.jpg" />
+    <Content Include="images\Banner1-1.jpg" />
+    <Content Include="images\Banner1-1.png" />
+    <Content Include="images\Banner1.jpg" />
+    <Content Include="images\Banner2.jpg" />
+    <Content Include="images\Banner3.jpg" />
+    <Content Include="images\Banner4.jpg" />
+    <Content Include="images\blog-title.jpg" />
+    <Content Include="images\blog1.jpg" />
+    <Content Include="images\blog2.jpg" />
+    <Content Include="images\blog3.jpg" />
+    <Content Include="images\c.png" />
+    <Content Include="images\c1.png" />
+    <Content Include="images\Caafimaad.jpg" />
+    <Content Include="images\client1.jpg" />
+    <Content Include="images\client2.jpg" />
+    <Content Include="images\client3.jpg" />
+    <Content Include="images\client4.jpg" />
+    <Content Include="images\client5.jpg" />
+    <Content Include="images\educational.png" />
+    <Content Include="images\english.png" />
+    <Content Include="images\english1.png" />
+    <Content Include="images\hani.jpg" />
+    <Content Include="images\institute.png" />
+    <Content Include="images\INSTITUTE1.png" />
+    <Content Include="images\INSTITUTE2.png" />
+    <Content Include="images\institutes.png" />
+    <Content Include="images\java.png" />
+    <Content Include="images\java1.png" />
+    <Content Include="images\KG1.png" />
+    <Content Include="images\KG2.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\mysql.png" />
+    <Content Include="images\mysql1.png" />
+    <Content Include="images\oracle.png" />
+    <Content Include="images\oracle1.png" />
+    <Content Include="images\our-works-1.jpg" />
+    <Content Include="images\our-works-2.jpg" />
+    <Content Include="images\our-works-3.jpg" />
+    <Content Include="images\our-works-4.jpg" />
+    <Content Include="images\our-works-5.jpg" />
+    <Content Include="images\our-works-6.jpg" />
+    <Content Include="images\ourworks1.jpg" />
+    <Content Include="images\php.png" />
+    <Content Include="images\php1.png" />
+    <Content Include="images\postgresql.png" />
+    <Content Include="images\postgresql1.png" />
+    <Content Include="images\PREPARATORY1.png" />
+    <Content Include="images\PREPARATORY2.png" />
+    <Content Include="images\PRIMARY1.png" />
+    <Content Include="images\PRIMARY2.png" />
+    <Content Include="images\projects-banner.jpg" />
+    <Content Include="images\school.png" />
+    <Content Include="images\schools.png" />
+    <Content Include="images\SECONDARY1.png" />
+    <Content Include="images\SECONDARY2.png" />
+    <Content Include="images\sqlserver.png" />
+    <Content Include="images\sqlserver1.png" />
+    <Content Include="images\System.png" />
+    <Content Include="images\team1.jpg" />
+    <Content Include="images\team2.jpg" />
+    <Content Include="images\team3.jpg" />
+    <Content Include="images\team4.jpg" />
+    <Content Include="images\team5.jpg" />
+    <Content Include="images\team6.jpg" />
+    <Content Include="images\universities.png" />
+    <Content Include="images\university.png" />
+    <Content Include="images\UNIVERSITY1.png" />
+    <Content Include="images\UNIVERSITY2.png" />
+    <Content Include="images\vb.png" />
+    <Content Include="images\vb1.png" />
+    <Content Include="index.html" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\jquery-2.2.4.js" />
+    <Content Include="js\jquery-ui.js" />
+    <Content Include="js\jquery.ui.touch-punch.js" />
+    <Content Include="js\script.js" />
+    <Content Include="MissionDatabasesHosting.html" />
+    <Content Include="MissionDesktopClouds.html" />
+    <Content Include="MissionDesktops.html" />
+    <Content Include="MissionMobile.html" />
+    <Content Include="MissionNetworkClouds.html" />
+    <Content Include="MissionNetworks.html" />
+    <Content Include="MissionWeb.html" />
+    <Content Include="MissionWebsites.html" />
+    <Content Include="MissionWebsitesHosting.html" />
+    <Content Include="networks.html" />
+    <Content Include="networks2.html" />
+    <Content Include="PrivateInstitutes1.html" />
+    <Content Include="PrivateKg1.html" />
+    <Content Include="PrivatePreparatory1.html" />
+    <Content Include="PrivatePrimary1.html" />
+    <Content Include="PrivateSecondary1.html" />
+    <Content Include="PrivateUniversities1.html" />
+    <Content Include="Product01.html" />
+    <Content Include="Product02.html" />
+    <Content Include="Product03.html" />
+    <Content Include="Product04.html" />
+    <Content Include="Product05.html" />
+    <Content Include="Product06.html" />
+    <Content Include="Product07.html" />
+    <Content Include="Product08.html" />
+    <Content Include="Product09.html" />
+    <Content Include="Product10.html" />
+    <Content Include="Product11.html" />
+    <Content Include="Product12.html" />
+    <Content Include="Product13.html" />
+    <Content Include="Product14.html" />
+    <Content Include="Product15.html" />
+    <Content Include="Product16.html" />
+    <Content Include="Product17.html" />
+    <Content Include="Product18.html" />
+    <Content Include="Product19.html" />
+    <Content Include="Product20.html" />
+    <Content Include="Product21.html" />
+    <Content Include="Product22.html" />
+    <Content Include="Product23.html" />
+    <Content Include="Product24.html" />
+    <Content Include="Product25.html" />
+    <Content Include="projects.html" />
+    <Content Include="projects1.html" />
+    <Content Include="PublicInstitutes1.html" />
+    <Content Include="PublicKg1.html" />
+    <Content Include="PublicPreparatory1.html" />
+    <Content Include="PublicPrimary1.html" />
+    <Content Include="PublicSecondary1.html" />
+    <Content Include="PublicUniversities1.html" />
+    <Content Include="Web.config" />
+    <Content Include="websites.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50301</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:50261/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
